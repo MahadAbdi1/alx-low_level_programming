@@ -1,20 +1,19 @@
-#include "main.h"
-
+#include "studio.h"
 /**
-*main - function prints text as output
-*
-*Return:return 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char school[10] = "_putchar";
+	char *sh = "Holberton";
 
-	int i;
-
-	for (i = 0; i < 8; i++)
+	while (*sh)
 	{
-		_putchar(school[i]);
+		_putchar(*sh);
+		sh++;
 	}
-	_putchar(10);
+	_putchar('\n');
+
 	return (0);
 }
