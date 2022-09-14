@@ -6,10 +6,13 @@
 */
 int _abs(int)
 {
-If (c > 0 || c == 0)
+	
+	if (n > 0 || n == 0)
 {
-Return ©;
+
+return (n);
 }
-Else
-Return (c * -1);
+
+else
+return (-n);
 }
