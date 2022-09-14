@@ -5,6 +5,7 @@
 *Return: no return
 */
 void print_alphabet(void)
+
 {
 	char alphabet;
 
@@ -13,3 +14,4 @@ void print_alphabet(void)
 		_putchar(alphabet);
 	}
 	_putchar('\n');
+}
