@@ -10,7 +10,7 @@ Char c;
 
 For (c = ‘a’; c <= ‘z’; c++)
 {
-_putchar©;
+_putchar(c)
 }
 _putchar(‘\n’);
 }
