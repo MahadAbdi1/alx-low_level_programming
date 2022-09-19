@@ -1,16 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - check the code
+ *_puts - prints a string
+ * @str: string to print
  *
- * Return: Always 0.
+ * Description: prints a string
+ * On success: returns no error
  */
-int main(void)
+
+void _puts(char *str)
 {
-	char *str;
+	int i = 0;
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
-
-	return (0);
+	while (*(str + i) != '\0')
+	{
+		putchar(*(str + i));
+		i++;
+	}
+	putchar(10);
 }
