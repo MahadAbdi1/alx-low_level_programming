@@ -1,4 +1,4 @@
-/*                                                                                                                                       * File: 2-strlen_recursion.c                                                                                                           
+/*                                                                                                                                       * File: 2-strlen_recursion.c                                                                                                           
  * Auth: smone                                                                                                                          
  */                                                                                                                                     
                                                                                                                                         
@@ -10,6 +10,7 @@
  *                                                                                                                                      
  * Return: The length of the string.                                                                                                    
  */                                                                                                                                     
+
 int _strlen_recursion(char *s)                                                                                                          
 {                                                                                                                                       
         int len = 0;                                                                                                                    
